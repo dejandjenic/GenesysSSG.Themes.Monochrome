@@ -60,7 +60,7 @@
 
         <div class="hero">
             <h1>
-                Dejan's Blog  
+                {{ configuration.title }}
             </h1>
         </div>
 
