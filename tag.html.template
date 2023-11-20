@@ -33,26 +33,26 @@
               <a href="/{{subdirectory}}about.html" class="nav-item nav-link">ABOUT</a>
             </div>
             <div class="navbar-nav ms-auto social">
-              <a href="/{{subdirectory}}rss.xml">
+              <a href="/{{subdirectory}}rss.xml" aria-label="RSS">
                 <img alt="RSS" style="width:15px" src="/images/rss.png" />
               </a>
               {% if configuration.facebook %}
-                <a href="{{ configuration.facebook }}">
+                <a href="{{ configuration.facebook }}" aria-label="Facebook">
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
               {% endif %}
               {% if configuration.twitter %}
-                <a href="{{ configuration.twitter }}">
+                <a href="{{ configuration.twitter }}" aria-label="Twitter">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               {% endif %}
               {% if configuration.instagram %}
-                <a href="{{ configuration.instagram }}">
+                <a href="{{ configuration.instagram }}" aria-label="Instagram">
                   <i class="fa-brands fa-instagram-in"></i>
                 </a>
               {% endif %}
               {% if configuration.linkedin %}
-                <a href="{{ configuration.linkedin }}">
+                <a href="{{ configuration.linkedin }}" aria-label="LinkedId">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
               {% endif %}
