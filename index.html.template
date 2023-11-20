@@ -102,7 +102,7 @@
 
               <div>
                 {% if post.image %}
-                  <img src="{{post.image}}" />
+                  <img alt="{{ post.title }}" src="{{post.image}}" />
                 {% endif %}
               </div>
               <div class="mt30">
@@ -205,7 +205,7 @@
                   <tr>
                     <td>
                       {% if post.image %}
-                        <img src="{{ post.image }}" />
+                        <img alt="{{ post.title }}" src="{{ post.image }}" />
                       {% endif %}
                     </td>
                     <td class="p10">
@@ -247,7 +247,7 @@
 
             <h5>About me</h5>
             <div class="mt10 c">
-              <img class="about" src="{{ configuration.generic["about"].image }}" />
+              <img alt="Me" class="about" src="{{ configuration.generic["about"].image }}" />
             </div>
             <div class="p10 mt10 f14">
               {{ configuration.generic["about"].text }}
@@ -260,7 +260,7 @@
           <h5>Useful link</h5>
           {{ FooterNavigation }}
           <a href="/{{subdirectory}}rss.xml">
-            <img style="width:20px" src="/images/rss.png" />
+            <img alt="RSS" style="width:20px" src="/images/rss.png" />
           </a>
         </div>
         <div class="col-md-4 pt20">
@@ -272,7 +272,7 @@
                 <tr>
                   <td>
                     {% if post.image %}
-                      <img src="{{ post.image }}" />
+                      <img alt="{{ post.title }}" src="{{ post.image }}" />
                     {% endif %}
                   </td>
                   <td class="p10">
