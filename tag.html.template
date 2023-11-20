@@ -34,7 +34,7 @@
             </div>
             <div class="navbar-nav ms-auto social">
               <a href="/{{subdirectory}}rss.xml">
-                <img style="width:15px" src="/images/rss.png" />
+                <img alt="RSS" style="width:15px" src="/images/rss.png" />
               </a>
               {% if configuration.facebook %}
                 <a href="{{ configuration.facebook }}">
@@ -256,7 +256,7 @@
           <h5>Useful link</h5>
           {{ FooterNavigation }}
           <a href="/{{subdirectory}}rss.xml">
-            <img style="width:20px" src="/images/rss.png" />
+            <img alt="RSS" style="width:20px" src="/images/rss.png" />
           </a>
         </div>
         <div class="col-md-4 pt20">
