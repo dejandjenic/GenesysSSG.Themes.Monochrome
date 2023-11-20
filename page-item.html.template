@@ -98,13 +98,13 @@
             {{ item.html }}
 
             <div class="social-list">
-              <a href="https://www.facebook.com/sharer.php?u={{configuration.hostedurlencoded}}{{ item.urlencoded }}">
+              <a href="https://www.facebook.com/sharer.php?u={{configuration.hostedurlencoded}}{{ item.urlencoded }}" aria-label="Share">
                 <i class="fa-brands fa-facebook-f"></i>
               </a>
-              <a href="https://twitter.com/intent/tweet?url={{configuration.hostedurlencoded}}{{ item.urlencoded }}&text={{item.title}}">
+              <a href="https://twitter.com/intent/tweet?url={{configuration.hostedurlencoded}}{{ item.urlencoded }}&text={{item.title}}" aria-label="Share">
                 <i class="fa-brands fa-twitter"></i>
               </a>
-              <a href="https://www.linkedin.com/sharing/share-offsite/?url={{configuration.hostedurlencoded}}{{ item.urlencoded }}">
+              <a href="https://www.linkedin.com/sharing/share-offsite/?url={{configuration.hostedurlencoded}}{{ item.urlencoded }}" aria-label="Share">
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
             </div>

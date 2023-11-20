@@ -124,13 +124,13 @@
               </div>
 
               <div class="social-list">
-                <a href="https://www.facebook.com/sharer.php?u={{configuration.hostedurlencoded}}{{ post.urlencoded }}">
+                <a href="https://www.facebook.com/sharer.php?u={{configuration.hostedurlencoded}}{{ post.urlencoded }}"  aria-label="Share" aria-label="Share">
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="https://twitter.com/intent/tweet?url={{configuration.hostedurlencoded}}{{ post.urlencoded }}&text={{post.title}}">
+                <a href="https://twitter.com/intent/tweet?url={{configuration.hostedurlencoded}}{{ post.urlencoded }}&text={{post.title}}" aria-label="Share" aria-label="Share">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a href="https://www.linkedin.com/sharing/share-offsite/?url={{configuration.hostedurlencoded}}{{ post.urlencoded }}">
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url={{configuration.hostedurlencoded}}{{ post.urlencoded }}" aria-label="Share" aria-label="Share">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </a>
               </div>
