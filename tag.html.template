@@ -4,6 +4,7 @@
   <head>
     {{ GA }}
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/favicon.ico">
     <link rel="canonical" href="{{ self.url }}" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -139,7 +140,7 @@
             <div class="box p10 mb10 c">
               <h5>About me</h5>
               <div class="mt10">
-                <img class="about" src="{{ configuration.generic["about"].image }}" />
+                <img alt="Me" class="about" src="{{ configuration.generic["about"].image }}" />
               </div>
               <div class="p10 mt10 f14">
                 {{ configuration.generic["about"].text }}
@@ -242,7 +243,7 @@
 
             <h5>About me</h5>
             <div class="mt10 c">
-              <img class="about" src="{{ configuration.generic["about"].image }}" />
+              <img alt="Me" class="about" src="{{ configuration.generic["about"].image }}" />
             </div>
             <div class="p10 mt10 f14">
               {{ configuration.generic["about"].text }}
